@@ -1,58 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 @import "reset.css";
-@import "status-bar.css";
+@import "kakao-2/status-bar.css";
 @import "variable.css";
+@import "kakao-2/welcome.css";
+
 body {
   background-color: cornflowerblue;
   font-family: "Yellowtail", cursive;
-}
-.welcome-header {
-  margin: 100px 0px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.welcome-header__title {
-  margin-bottom: 50px;
-  font-size: 40px;
-  font-weight: 500;
-}
-.welcome-header__text {
-  width: 50%;
-  opacity: 0.8;
-}
-#please-log-in {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 350px;
-}
-#please-log-in input {
-  border: none;
-  padding: 15px 0px;
-  font-size: 14px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  transition: all 2s ease-in-out;
-}
-#please-log-in input:hover {
-  border-color: yellowgreen;
-}
-
-#please-log-in input[type="button"] {
-  margin: 20px 0px;
-  font-family: "Yellowtail", cursive;
-  background-color: var(--friend);
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-#please-log-in input::placeholder {
-  color: rgba(0, 0, 0);
-  font-family: "Yellowtail", cursive;
-}
-#please-log-in a {
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-  font-size: 14px;
 }

@@ -1,3 +1,6 @@
 :root {
   --friend: #12567b;
 }
+input:focus {
+  outline: none;
+}
