@@ -1,0 +1,36 @@
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  <!--링크의 색깔을 변하게 하는 color은 link에다가 붙여야 함.-->
+}
+.fa-ellipsis-h {
+  padding-right: 46px;
+}
+.fa-user-astronaut {
+  padding-left: 46px;
+}
+.nav__link {
+  color: #2f363e;;
+  position: relative;
+}
+.nav__notification {
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 22px;
+  bottom: 17px;
+}
