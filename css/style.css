@@ -5,9 +5,10 @@
 @import "kakao-2/welcome.css";
 @import "programmer.png";
 @import "kakao-3/nav-bar.css";
-
+@import "kakao-3/screen-header.css";
+@import "kakao-3/friends.css";
 body {
   background-color: cornflowerblue;
   font-family: "Yellowtail", cursive;
+  height: 1000vh;
 }
-

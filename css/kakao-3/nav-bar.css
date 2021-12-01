@@ -33,4 +33,19 @@
   position: absolute;
   left: 22px;
   bottom: 17px;
+  <!--.nav__notification에 flex를 적용시킨 이유는 그의 자손인 1을 가운데에 위치하기 위해 flex는 부모한테 적용시킨다.-->
+  <!--말풍선이랑 1이 겹쳐지는 이유는 말풍선과 1의 기본 위치가 .nav__link를 기준으로 같기에 1에 absolute를 적용시켜 위에 위치하게 됨-->
+  
+}
+.nav__circle {
+  color: tomato;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 29px;
 }
