@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
-@import "useful things/reset.css";
-@import "useful things/variable.css";
+@import "useful/reset.css";
+@import "useful/variable.css";
 @import "kakao-2/status-bar.css";
 @import "kakao-2/welcome.css";
 @import "programmer.png";
 @import "kakao-3/nav-bar.css";
 @import "kakao-3/screen-header.css";
 @import "kakao-3/friends.css";
+@import "useful/user-component.css";
 body {
   background-color: cornflowerblue;
   font-family: "Yellowtail", cursive;

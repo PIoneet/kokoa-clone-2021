@@ -1,5 +1,6 @@
 :root {
   --friend: #12567b;
+  --friend-padding: 20px;
 }
 input:focus {
   outline: none;

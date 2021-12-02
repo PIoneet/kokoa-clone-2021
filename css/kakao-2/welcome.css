@@ -15,23 +15,23 @@
   width: 50%;
   opacity: 0.8;
 }
-#please-log-in {
+.please-log-in {
   display: flex;
   flex-direction: column;
   margin: 0px 350px;
 }
-#please-log-in input {
+.please-log-in__input {
   border: none;
   padding: 15px 0px;
   font-size: 14px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   transition: all 2s ease-in-out;
 }
-#please-log-in input:hover {
+.please-log-in__input:hover {
   border-color: yellowgreen;
 }
 
-#please-log-in input[type="submit"] {
+.please-log-in__submit {
   margin: 20px 0px;
   font-family: "Yellowtail", cursive;
   background-color: var(--friend);
@@ -39,18 +39,16 @@
   border-radius: 5px;
 }
 
-#please-log-in input::placeholder {
+.please-log-in__input::placeholder {
   color: rgba(0, 0, 0);
   font-family: "Yellowtail", cursive;
 }
-#please-log-in a {
+.please-log-in__link {
   text-align: center;
   text-decoration: none;
   color: inherit;
   font-size: 14px;
 }
-.welcome-header__title::first-letter {
-  font-size: 100px;
-}
+
 .welcome-header__title::first-line {
 }
