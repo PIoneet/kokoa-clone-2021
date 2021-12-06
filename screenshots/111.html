@@ -1,0 +1,55 @@
+<head>
+    <style>
+    .open-image img {
+         width: 90px;
+         height: 90px;
+         border-radius: 10px;
+         box-sizing: border-box;
+        }
+    .open-image__link {
+        position: relative;
+    }
+    .open-image__absolute {
+        color: azure;
+        background-color: #4b455c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 20px;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="open-image">
+        <div class="open-image__link">
+            <img src="file:///C:/Users/family/Pictures/1b4b1f0e1fd13a937ce62bfa504569d6.jpg"/>
+            <div class="open-image__absolute"><i class="fas fa-heart"></i><span>326</span>
+            </div>
+        </div>
+
+    </div>
+    
+            
+         
+
+
+
+
+
+
+
+</body>
+   <!--display flex에 대하여 만약에 우리가 .user 안에다가 span만 넣어놓는다면 flex가 모두 적용하게 된다.
+            하지만, span사이에 div를 사용하게 된다면 flex 효과가 일부 무시된다. 이 코드를 실행해 보았을때 중앙 정렬은 되지만 
+        flex-direction column으로 수직 배열되지는 않는다. 한마디로 flex direction의 영향으로 align items center가 중아으로 배열은 해주지만
+    column으로 인한 수직 배열은 사용되지 않는다.-->
+          <!--flex는 부모 손자 관계에서까지는 중앙 배열 등이 사용될 수 있지만 flex direction 같은 경우에는 부모 형제 관계까지밖에 사용이 가능하다-->
+          <!--마지막 한방 정리 저런 식으로 작성했을때 중앙 배열은 선대에게 적용시키기만 하면 후손에 다 적용됨 하지만 flex 자체나 flex direction은 
+        부모 형제 까지만 적용이 된다.-->

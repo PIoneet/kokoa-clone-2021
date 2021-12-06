@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends-kakao-talk</title>
+    <title>Let's do some chat!</title>
 </head>
  <body>
     <div class="status-bar">
@@ -24,47 +24,52 @@
         </div>
     </div>
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-dragon fa-lg"></i></span>
             <span><i class="fas fa-guitar fa-lg"></i></span>
             <span><i class="fas fa-cog fa-lg"></i></span>
         </div>
     </header>
     
-    <a id="friends-display-link"><i class="fas fa-info-circle"></i> Friend's Names Display <i class="fas fa-chevron-right fa-sm"></i></a>
-    <!--screen 03에서 왼쪽에는 사진과 text가 있고 오른쪽에 숫자가 있다. 이를 표현하기 위해선 두개의 상자로 표현하는 것이 좋다. 한쪽 상자에는 이미지와 텍스트를 놓고 다른 쪽에 나머지를 넣는다-->
+    <a id="friends-display-link"><i class="fas fa-info-circle"></i> Tokyo revengers chat! <i class="fas fa-chevron-right fa-sm"></i></a>
+    
     <main class="chats-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar user-component__avatar-xl" src="file:///C:/Users/family/Pictures/efaa2f69e94c67485832d0cb28adef19.jpg"/>
-                <!--이미지에 있는 두개의 클래스는 각각 하나이다 저런걸 변형이라고 한다.-->
-                <div class="user-component__text">
-                    <h4 class="user-component__title">PIoneet</h4><!--div는 단순히 박스이기 때문에 div 안에서도 class만들어준다-->
-                    <h5 class="user-component__subtitle">Please check my Kakao account Info</h5>
+        
+            <div class="user-component__column hh">
+                
+                <div class="user-component__side">
+                    <img class="user-component__avatar user-component__avatar-xl" src="file:///C:/Users/family/Downloads/790664811c97ccd064b76a47260ae446.jpg"/>
+                    <div class="user-component__text">
+                    <h4 class="user-component__title">Takemichi</h4>
+                    <h5 class="user-component__subtitle">This is my last revenges</h5>
+                    </div>
+                </div>
+                <div class="user-component__2">
+                    <span>21:22</span> <span class="badge">1</span>
                 </div>
             </div>
 
-        </div>
-        <div class="friends-screen__channel">
-            <header class="friends-screen__channel-header">Channel <i class="fas fa-chevron-up fa-sm"></i></header>
-        </div>
+        
             <div class="user-component__column">
                 <div class="user-component__side">
-                    <img class="user-component__avatar user-component__avatar-sm" src="file:///C:/Users/family/Downloads/%E5%8D%96%E6%88%91%E5%8D%A1%E5%A7%90%E4%B8%80%E4%B8%AA%E9%9D%A2%E5%AD%90%20%20%E6%88%91%E6%83%B3%E8%A6%81%F0%9F%91%8D-sophia%E8%8F%B2.jfif"/>
+                    <img class="user-component__avatar user-component__avatar-xl" src="file:///C:/Users/family/Downloads/03aed27a108cd33751483b26cb2514bb.jpg"/>
                     <div class="user-component__text">
-                    <h4 class="user-component__title">Sophia</h4><!--div는 단순히 박스이기 때문에 div 안에서도 class만들어준다-->
+                    <h4 class="user-component__title">Hina</h4>
+                    <h5 class="user-component__subtitle">Love means never having to say you're sorry</h5>
                     </div>
                 </div>
                 <div class="user-component__2">
                     <span>2</span> <i class="fas fa-chevron-right fa-sm"></i> 
                 </div>
             </div>
-            <div class="user-component__column gg">
+            <div class="user-component__column">
                 <div class="user-component__side">
-                    <img class="user-component__avatar user-component__avatar-sm" src="file:///C:/Users/family/Downloads/4121cfdb4a6142c1d4e4ea3f2f07736e.jpg"/>
+                    <img class="user-component__avatar user-component__avatar-xl" src="file:///C:/Users/family/Downloads/6014c1b795cd5143645b09415e8e77dc.jpg"/>
                     <div class="user-component__text">
-                    <h4 class="user-component__title">Harry</h4><!--div는 단순히 박스이기 때문에 div 안에서도 class만들어준다-->
+                    <h4 class="user-component__title">Chioyu</h4>
+                    <h5 class="user-component__subtitle">No matter what hell awaits me, I'll be with you</h5>
                     </div>
                     
                 </div>
@@ -78,11 +83,13 @@
     
     <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__page"><a class="nav__link nav__modifier" href="friends.html"><i class="fas fa-user-astronaut fa-2x"></i></a></1i>
+            <li class="nav__page">
+                <a class="nav__link nav__modifier" href="friends.html"><i class="fas fa-user-secret fa-2x"></i></a>
+            </1i>
             <li class="nav__page">
                 <a class="nav__link" href="chats.html">
                 <span class="nav__notification">1</span>
-                <i class="far fa-comments fa-2x"></i>
+                <i class="fas fa-comments fa-2x"></i>
                 </a>
             </1i>
             <li class="nav__page"><a class="nav__link" href="find.html"><i class="fas fa-search-plus fa-2x"></i></a></1i>

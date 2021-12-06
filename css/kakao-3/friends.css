@@ -11,8 +11,8 @@
   margin-left: 12px;
 }
 
-.friends-screen {
-  padding: 0px var(--friend-padding);
+.chats-screen {
+  margin: 0px var(--friend-padding);
 }
 .friends-screen__channel-header {
   display: flex;

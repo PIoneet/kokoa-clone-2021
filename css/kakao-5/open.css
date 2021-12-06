@@ -1,0 +1,68 @@
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+  margin-bottom: 40px;
+}
+.open-chat__header span {
+  opacity: 0.6;
+}
+.open-post__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.open-post__hashtags {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.open-post__active {
+  color: #ff8ad2;
+}
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+/* 확실히 알아야 할 것이 하나 있다. flex나 font size등은 부모에게 적용하여도 자손에게 적용이 바로 되는데
+margin과 padding은 예외이다. 이러한 것들은 .open-post span등으로 span처럼 특정 부류를 찝어서 적용해야지 적용이 된다.*/
+.open-post__members span {
+  padding-left: 8px;
+}
+.open-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.open-image img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.open-image {
+  position: relative;
+}
+.open-image__absolute {
+  color: azure;
+  background-color: #4b455c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  /* absolute 적용시킬때 새ㅔ -px하지 말자 이상하다!!! */
+}
