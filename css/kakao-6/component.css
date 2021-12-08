@@ -1,0 +1,33 @@
+.ff {
+  margin-top: 100px;
+  border-bottom: none;
+}
+.find-icons__modifier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 20px;
+  border-bottom: none;
+}
+.find-icons__more-modifier {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 20px;
+  border-bottom: none;
+}
+.find-icons__icon-modifier {
+  padding-left: 236px;
+}
+
+.fa-check {
+  padding-left: 5px;
+  color: #ff9f94;
+}
+.find-icons__icon {
+  margin: 0px 20px;
+}
+.user-component__inbox {
+  margin-right: 20px;
+}

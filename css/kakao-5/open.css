@@ -22,6 +22,9 @@
 .open-post__active {
   color: #ff8ad2;
 }
+.open-post__active-2 {
+  color: #964324;
+}
 .open-post__members img {
   width: 20px;
   height: 20px;
@@ -42,6 +45,7 @@ margin과 padding은 예외이다. 이러한 것들은 .open-post span등으로 
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
+  margin-bottom: 60px;
 }
 .open-image img {
   width: 90px;

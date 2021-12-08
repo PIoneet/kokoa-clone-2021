@@ -14,3 +14,14 @@
 .screen-header__icons {
   display: flex;
 }
+.find-icons__icon {
+  position: relative;
+}
+.watcha__modifier {
+  background-color: yellowgreen;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 45px;
+}
