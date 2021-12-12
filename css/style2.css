@@ -14,6 +14,10 @@
 @import "kakao-5/find-header.css";
 @import "kakao-5/open.css";
 @import "kakao-6/component.css";
+@import "kakao-6/suggestion.css";
+@import "kakao-6/settings.css";
+@import "kakao-6/settings2.css";
+@import "kakao-7/chat.css";
 
 body {
   background-color: cornflowerblue;

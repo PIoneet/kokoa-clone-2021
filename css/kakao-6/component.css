@@ -1,5 +1,5 @@
 .ff {
-  margin-top: 100px;
+  margin-top: 84px;
   border-bottom: none;
 }
 .find-icons__modifier {
@@ -15,7 +15,7 @@
   align-items: center;
   margin-top: 20px;
   padding: 20px 20px;
-  border-bottom: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .find-icons__icon-modifier {
   padding-left: 236px;

@@ -1,0 +1,27 @@
+.settings-row {
+  margin-top: 40px;
+}
+.settings-row__columns span {
+  font-size: 25px;
+  margin-left: 20px;
+}
+.settings-row__columns {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(8, 7, 87, 0.1);
+}
+.settings-row__columns {
+  display: flex;
+  align-items: center;
+}
+.settings-row__columns-specific {
+  justify-content: space-between;
+  align-items: center;
+}
+.settings-row__specific-opacity {
+  opacity: 0.4;
+}
+.fa-pizza-slice {
+  color: aqua;
+  margin-left: 10px;
+}
