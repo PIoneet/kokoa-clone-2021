@@ -31,3 +31,25 @@
 .user-component__2 {
   color: rgba(0, 0, 0, 0.7);
 }
+@keyframes hiddenimage {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.comment-animation {
+  background-color: yellow;
+  width: 220vh;
+  height: 120vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 140px;
+  animation: hiddenimage 1s ease-in-out forwards;
+  animation-delay: 1s;
+}

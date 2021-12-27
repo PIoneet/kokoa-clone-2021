@@ -1,3 +1,37 @@
 .color-modifier {
   background-color: yellowgreen;
 }
+.header-settings {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+.header-settings__1,
+.header-settings__2,
+.header-settings__3 {
+  width: 33%;
+}
+.header-settings__3 {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-settings__2 {
+  text-align: center;
+  margin-right: 40px;
+}
+.main-times {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.status-bar {
+  z-index: 2;
+  top: 0;
+}
+.main-times span {
+  color: white;
+  background-color: black;
+  padding: 8px;
+  border-radius: 10px;
+}

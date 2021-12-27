@@ -18,9 +18,10 @@
 @import "kakao-6/settings.css";
 @import "kakao-6/settings2.css";
 @import "kakao-7/chat.css";
+@import "kakao-7/chatting.css";
 
 body {
   background-color: cornflowerblue;
   font-family: "Yellowtail", cursive;
-  height: 1000vh;
+  height: 120vh;
 }

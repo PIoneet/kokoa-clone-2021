@@ -1,48 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/style2.css">
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="css/style2.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>chats with Chiyou</title>
-</head>
- <body class="color-modifier">
+  </head>
+  <body class="color-modifier height-modifier">
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi" style="user-select: auto;"></i>
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fas fa-battery-three-quarters"></i>
-            <i class="fas fa-chess-knight"></i>
-        </div>
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi" style="user-select: auto"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-chess-knight"></i>
+      </div>
     </div>
-    <main class="chats-screen">
-        <header class="header-settings">
-            <div class="header-settings__1"><a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a></div>
-            <div class="header-settings__2"><span>Chiyou</span></div>
-            <div class="header-settings__3"><i class="fas fa-search fa-lg fa-search-find"></i></div>
-            <!-- 가끔 오류 생길때 div 안에 넣어서 해주면 해결됨 -->
-            <!-- 링크가 인라인이라 높이랑 너비가 없으니까 생긴 오류인듯 -->
-        </header>
+    <main class="chatting-screen">
+      <header class="header-settings">
+        <div class="header-settings__1">
+          <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="header-settings__2"><span>Chiyou</span></div>
+        <div class="header-settings__3">
+          <i class="fas fa-search fa-lg fa-search-find"></i>
+          <h2><i class="fas fa-bars fa-lg"></i></h2>
+        </div>
+        <!-- 가끔 오류 생길때 div 안에 넣어서 해주면 해결됨 -->
+        <!-- 링크가 인라인이라 높이랑 너비가 없으니까 생긴 오류인듯 -->
+      </header>
 
-    
-  
+      <div class="main-times">
+        <span>Tuseday June 20, 2021</span>
+      </div>
 
+      <div class="first-chatting">
+        <img
+          src="file:///C:/Users/family/Downloads/6014c1b795cd5143645b09415e8e77dc.jpg"
+        />
+        <div class="first-chatting__more">
+          <span id="first-chatting__author">Chiyou</span>
+          <div class="first-chatting__content">
+            <span id="chat-box">Hi!</span>
+            <span id="chat-time">21:27</span>
+          </div>
+        </div>
+      </div>
 
+      <div class="first-chatting first-chatting__modifier">
+        <div class="first-chatting__content first-chatting__content__modifier">
+          <span id="chat-box">What's up!</span>
+          <span id="chat-time">21:27</span>
+        </div>
+      </div>
 
-   
-    <script src="https://kit.fontawesome.com/6478f529f2.js"
-            crossorigin="anonymous">
-    </script>
-  
-    
-    
-</body>
+      <form class="reply">
+        <div class="reply__column">
+          <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column-2">
+          <input type="text" placeholder="Please Write.." />
+          <i class="far fa-grin-alt"></i>
+          <button>
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

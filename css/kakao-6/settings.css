@@ -1,8 +1,11 @@
 .header-settings {
+  padding-left: 40px;
   margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
+  top: 0;
 }
 .header-settings__1 {
   margin-right: auto;
@@ -10,7 +13,11 @@
 .header-settings__3 {
   margin-left: auto;
 }
-.header-settings span {
+.header-settings__3 h2 {
+  margin-left: 20px;
+  margin-right: 35px;
+}
+.header-settings__2 span {
   font-size: 25px;
   font-weight: 600;
 }
